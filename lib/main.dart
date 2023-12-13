@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:rinf/rinf.dart';
 
-void main() {
+void main() async {
+  await Rinf.ensureInitialized();
   runApp(const MyApp());
 }
 
